@@ -1,4 +1,4 @@
-# enable-it Bionic Boards - Thied iteration
+# enable-it Bionic Boards - Third iteration
 
 **This project is part of e-Nable.it Bionic Platform**
 
