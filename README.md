@@ -40,7 +40,7 @@ A basic control board with the following features:
 - **Layers:** 2-layer board  
 - **Power Management:** Provides battery management and charging, delivering three power outputs (+3.3V, +5V, and a variable voltage between 5V and 12V for powering multiple motors simultaneously).  
 - **Expansion Slot:** Includes a 8+8 pin expansion slot for a daughter board.  
-- **Housing:** Designed to house the M5Stack Atom S3 board.  
+- **Housing:** Designed to house the [M5Stack Atom S3](https://docs.m5stack.com/en/core/AtomS3) board.  
 
 **2. DRV8411 Module**  
 A motor/linear actuator H-bridge daughter board with the following features:  
@@ -67,6 +67,18 @@ A specialized board for signal acquisition:
 ## KNOWN ISSUES
 
 N/A
+
+## Authors
+
+Alberto Navatta - alberto@e-nableitalia.it / alberto.navatta@gmail.com
+
+e-Nable Italia - info@e-nableitalia.it 
+
+Check for further information, updates and information on this and other e-Nable Italia’s projects on our website: [https://e-nableitalia.it/bikeadapter](https://e-nableitalia.it/it_it/portfolio/bike-adapter/) & https://e-nableitalia.it
+
+## License
+
+This material is released under *Creative Commons - Attribution - Non-Commercial - Share Alike license*
 
 ## LIMITATION OF LIABILITY.
 UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER TORT (INCLUDING NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL YOU, THE INITIAL DEVELOPER, ANY OTHER CONTRIBUTOR, OR ANY DISTRIBUTOR OF COVERED CODE, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON FOR ANY INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER COMMERCIAL DAMAGES OR LOSSES, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGES. THIS LIMITATION OF LIABILITY SHALL NOT APPLY TO LIABILITY FOR DEATH OR PERSONAL INJURY RESULTING FROM SUCH PARTY'S NEGLIGENCE TO THE EXTENT APPLICABLE LAW PROHIBITS SUCH LIMITATION. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THIS EXCLUSION AND LIMITATION MAY NOT APPLY TO YOU.
