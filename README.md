@@ -61,7 +61,7 @@ Key features:
   - Supports a combination of one actuator and one sensor (myoelectric or pressure). 
 
 Latest version:
-- ** Files:** DRV8441A Module Rev A  
+- **Files:** DRV8441A Module Rev A  
 
 **3. Advanced Control Board**  
 An enhanced version of the basic control board with added features:  
@@ -75,6 +75,7 @@ A specialized board for EMG signal acquisition:
 
 ## Project updates
 240110 - Initial file upload
+
 240113 - Updated to latest release, changes:
 - fixed mechanical issue (wrong housing position for Atom S3 board, moved the connectors 4.5 mm below)
 - reworked board polygons (cleaner design)
