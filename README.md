@@ -1,11 +1,12 @@
-# enable-it Bionic Boards - Thied iteration
+# enable-it Bionic Boards - Third iteration
 
 **This project is part of e-Nable.it Bionic Platform**
 
 An open-source project for developing prosthetic and assistive devices through frugal innovation, designed to be part of e-Nable's open-source prosthetics. The project focuses on building electronic solutions that enable mechanical devices to achieve advanced functionalities, enhancing the community's designs with sophisticated, human-integrated electronic control while maintaining simplicity, affordability, and accessibility.
 
-Additional details and information about the **e-nable.it Bionic Platform** can be found in [e-nable.it Bionic Plaform Wiki](https://dev.e-nableitalia.it/wiki/spaces/enableit/pages/2195549/e-Nable.it+bionic+platform).
+This project is developed and maintained by the volunteers of the e-Nable Italia community. Our group consists of passionate individuals, including biomedical engineers, mechatronics engineers, and makers, who collaborate to create innovative and accessible solutions. Through our collective efforts, we aim to empower users with open-source, affordable, and customizable assistive devices.
 
+Additional details and information about the **e-nable.it Bionic Platform** can be found in [e-nable.it Bionic Plaform Wiki](https://dev.e-nableitalia.it/wiki/spaces/enableit/pages/2195549/e-Nable.it+bionic+platform).
 
 # Project roadmap
 
@@ -74,7 +75,7 @@ Alberto Navatta - alberto@e-nableitalia.it / alberto.navatta@gmail.com
 
 e-Nable Italia - info@e-nableitalia.it 
 
-Check for further information, updates and information on this and other e-Nable Italia’s projects on our website: [https://e-nableitalia.it/bikeadapter](https://e-nableitalia.it/it_it/portfolio/bike-adapter/) & https://e-nableitalia.it
+Check for further information, updates and information on this and other e-Nable Italia’s projects on our website: [https://e-nableitalia.it/](https://e-nableitalia.it/)
 
 ## License
 
