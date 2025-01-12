@@ -35,35 +35,51 @@ By integrating sophisticated, human-centered electronic control, we strive to en
 
 This initial release includes the following boards:
 
-**1. Atom S3 Module**  
-A basic control board with the following features:  
+**1. Bionic Controller**  
+The Bionic Controller is a custom control board designed to house and expand the capabilities of the M5Stack Atom S3 board. It connects seamlessly to its daughter boards via an 8+8 pin expansion slot.
+
+**This module serves as the foundation for flexible, low-cost prosthetic and assistive device applications.**
+
+Key features:  
 - **Size:** 25x50mm  
 - **Layers:** 2-layer board  
 - **Power Management:** Provides battery management and charging, delivering three power outputs (+3.3V, +5V, and a variable voltage between 5V and 12V for powering multiple motors simultaneously).  
 - **Expansion Slot:** Includes a 8+8 pin expansion slot for a daughter board.  
 - **Housing:** Designed to house the [M5Stack Atom S3](https://docs.m5stack.com/en/core/AtomS3) board.  
 
-**2. DRV8411 Module**  
-A motor/linear actuator H-bridge daughter board with the following features:  
+Latest version:
+- **Files:** Atom S2 Module Rev. C
+
+**2. ActuatorSense Module**  
+The ActuatorSense module is a compact, low-cost H-bridge daughter board designed to connect seamlessly to the expansion slot of the Bionic Controller board.
+
+Key features:  
 - **Size:** 25x25mm  
 - **Layers:** 2-layer board  
 - **Capabilities:**  
   - Can control two linear actuators (or two motors).  
-  - Supports a combination of one actuator and one sensor (myoelectric or pressure).  
+  - Supports a combination of one actuator and one sensor (myoelectric or pressure). 
+
+Latest version:
+- ** Files:** DRV8441A Module Rev A  
 
 **3. Advanced Control Board**  
 An enhanced version of the basic control board with added features:  
 - Includes three slots for daughter boards, enabling control of multiple actuators.  
-- Retains all capabilities of the Atom S3 Module.  
+- Retains all capabilities of the Bionic Controller.  
 
 **4. Daughter Board with TI ADS1298**  
-A specialized board for signal acquisition:  
+A specialized board for EMG signal acquisition:  
 - **Functionality:** Designed to acquire up to eight simultaneous myoelectric signals.
 
 
 ## Project updates
-240110 - initial file upload
-
+240110 - Initial file upload
+240113 - Updated to latest release, changes:
+- fixed mechanical issue (wrong housing position for Atom S3 board, moved the connectors 4.5 mm below)
+- reworked board polygons (cleaner design)
+- completed 3d board models
+- replaced single pin 2.54 headers with wirepad
 
 ## KNOWN ISSUES
 
