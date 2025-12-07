@@ -48,39 +48,46 @@ Key features:
 - **Housing:** Designed to house the [M5Stack Atom S3](https://docs.m5stack.com/en/core/AtomS3) board.  
 
 Latest version:
-- **Files:** Atom S2 Module Rev. C
+- **Files:** Atom S3 Module Rev. D
 
 **2. ActuatorSense Module**  
-The ActuatorSense module is a compact, low-cost H-bridge daughter board designed to connect seamlessly to the expansion slot of the Bionic Controller board.
+The ActuatorSense module is a compact, low-cost H-bridge/waveshare motor controller daughter board designed to connect seamlessly to the expansion slot of the Bionic Controller board.
 
 Key features:  
-- **Size:** 25x25mm  
+- **Size:** 26x25mm  
 - **Layers:** 2-layer board  
 - **Capabilities:**  
-  - Can control two linear actuators (or two motors).  
-  - Supports a combination of one actuator and one sensor (myoelectric or pressure). 
+  - Can control up to two linear actuators (or two motors).
+  - Can control waveshare servo/motors  
+  - Supports a combination of one actuator/motor and one sensor (myoelectric or pressure). 
 
 Latest version:
-- **Files:** DRV8441A Module Rev A  
+- **Files:** DRV8441A Module Rev B  
 
 **3. Advanced Control Board**  
-An enhanced version of the basic control board with added features:  
+An enhanced version of the basic control board with added features (not yet released):  
 - Includes three slots for daughter boards, enabling control of multiple actuators.  
 - Retains all capabilities of the Bionic Controller.  
 
 **4. Daughter Board with TI ADS1298**  
-A specialized board for EMG signal acquisition:  
+A specialized board for EMG signal acquisition (previous version prototype available):  
 - **Functionality:** Designed to acquire up to eight simultaneous myoelectric signals.
 
 
 ## Project updates
-240110 - Initial file upload
+250110 - Initial file upload
 
-240113 - Updated to latest release, changes:
+250113 - Updated to latest release, changes:
 - fixed mechanical issue (wrong housing position for Atom S3 board, moved the connectors 4.5 mm below)
 - reworked board polygons (cleaner design)
 - completed 3d board models
 - replaced single pin 2.54 headers with wirepad
+
+250724 - Updated to latest release (DRV8441A Module Rev B), changes:
+- tilted pin order on Actuonix PQ12 connector (J-A1 & J-A2 pin order need to be inverted because the connector has contacts on the opposite side)
+- added waveshare driver logic and connector (1 wire data + GND + PWR)
+- added a digital switch to enable waveshare (default) or additional h-bridge control (2nd motor)
+- fixed ADC/Digital Atom S3 pin swap error (G38 & G39 cannot be used as ADC)
 
 ## KNOWN ISSUES
 
@@ -90,7 +97,7 @@ N/A
 
 Alberto Navatta - alberto@e-nableitalia.it / alberto.navatta@gmail.com
 
-e-Nable Italia - info@e-nableitalia.it 
+e-Nable Italia - info@e-nableitalia.it
 
 Check for further information, updates and information on this and other e-Nable Italia’s projects on our website: [https://e-nableitalia.it/](https://e-nableitalia.it/)
 
