@@ -6,7 +6,7 @@ An open-source project for developing prosthetic and assistive devices through f
 
 This project is developed and maintained by the volunteers of the e-Nable Italia community. Our group consists of passionate individuals, including biomedical engineers, mechatronics engineers, and makers, who collaborate to create innovative and accessible solutions. Through our collective efforts, we aim to empower users with open-source, affordable, and customizable assistive devices.
 
-Additional details and information about the **e-nable.it Bionic Platform** can be found in [e-nable.it Bionic Plaform Wiki](https://dev.e-nableitalia.it/wiki/spaces/enableit/pages/2195549/e-Nable.it+bionic+platform).
+Additional details and information about the **e-nable.it Bionic Platform** can be found in [e-nable.it Bionic Plaform Wiki](https://dev.e-nableitalia.it/wiki/spaces/enableit/pages/360468/Bionic+Workgroup).
 
 # Project roadmap
 
