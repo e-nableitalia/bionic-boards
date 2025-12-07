@@ -91,7 +91,7 @@ A specialized board for EMG signal acquisition (previous version prototype avail
 
 ## KNOWN ISSUES
 
-N/A
+- Waveshare connector pinout is tilter: **Pin 1 is connected to Pin 3, and Pin 3 is connected to Pin 1**. Double-check wiring before connecting.
 
 ## Authors
 
